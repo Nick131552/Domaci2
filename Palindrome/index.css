@@ -1,0 +1,31 @@
+ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: auto;
+
+    padding: 0;
+    list-style-type: none;
+}
+
+ul>li {
+    width: 3vw;
+    height: 6vw;
+    margin: 0 0 0 0.5vw;
+}
+
+ul>li>button {
+    width: 3vw;
+
+    text-align: center;
+}
+
+ul>li>input {
+    width: 3vw;
+    height: 3vw;
+
+    font-size: 2vw;
+    text-align: center;
+
+    border: 1px black solid;
+}

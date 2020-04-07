@@ -1,0 +1,25 @@
+
+.selected{
+    background-color: lightgray;
+}
+
+#searchBox>li>button{
+    display:none;
+}
+
+#searchBox>li{
+    color:black;
+}
+
+#searchBox{
+    display:none;
+    z-index:9999;
+}
+
+header{
+    height:100px;
+}
+
+#main{
+    z-index:-1;
+}

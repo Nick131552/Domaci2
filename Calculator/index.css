@@ -1,0 +1,22 @@
+button{
+    display: inline-block;
+
+    width: 8vw;
+    height: 8vw;
+    margin: -8vh 0.5vh 9vh 0.5vh;
+
+    font-size: 4vw;
+}
+
+input{
+    display: inline-block;
+
+    width: 25.5vw;
+    height: 8vw;
+    margin:0vh 0.5vh 0vh 9vw;
+    padding-left: 0.5vw;
+
+    font-size: 4vw;
+
+    border: 2px black solid;
+}

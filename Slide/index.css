@@ -1,0 +1,17 @@
+#PICTURE{
+    height: 40vh;
+
+    margin: 25vh 0 0 0;
+}
+
+
+#RIGHT{
+    width: 3vw;
+}
+
+#LEFT{
+    width: 3vw;
+    transform: rotate(180deg);
+
+    margin: 0 0 0 0px;
+}

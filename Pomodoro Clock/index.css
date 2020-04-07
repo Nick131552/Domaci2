@@ -1,0 +1,60 @@
+.titleButton{
+    width: 30vw;
+    height: 10vh;
+    margin: 0 0 0 2vw;
+
+    font-size: 5vh;
+    color: white;
+
+    background: rgb(0, 119, 255);
+}
+#pomodoro{
+    background: rgb(0, 59, 126);
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+
+    height: 80vh;
+    margin: 5vh 0 0 0;
+
+    border: 2px black solid;
+}
+
+div>h1{
+    width: 40vw;
+    margin: 20vh 0 0 35vw;
+
+    font-size: 20vh;
+}
+
+#shortBreakDiv, #longBreakDiv{
+    display: none;
+}
+
+.clockButton{
+    height: 15vh;
+    width: 15vw;
+    margin: 18vh 0 0 12vw;
+
+    font-size: 4vh;;
+
+    border-radius: 10px;
+}
+
+.start{
+    color: white;
+    background: green;
+}
+
+.stop{
+    color: white;
+    background: red;
+}
+
+.reset{
+    color: black;
+    background: lightgray;
+}

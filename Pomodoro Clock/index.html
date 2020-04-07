@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+
+        <title>Pomodoro Clock</title>
+        
+        <link rel="stylesheet" type="text/css" 
+        href="index.css">
+    </head>
+
+    <body id="body">
+
+        <button id="pomodoro" onclick="openPomodoro()" class="titleButton">Pomodoro 25:00</button>
+        <button id="shortBreak" onclick="openShortBreak()" class="titleButton">Short Break 05:00</button>
+        <button id="longBreak" onclick="openLongBreak()" class="titleButton">Long Break 10:00</button>
+
+        <div id="pomodoroDiv">
+            <h1 id="counterOne">25:00</h1>
+            <button class="clockButton start" onclick="startTimer(this)">Start</button>
+            <button class="clockButton stop" onclick="stopTimer(this)">Stop</button>
+            <button class="clockButton reset" onclick="resetTimer(this)">Reset</button>
+        </div>
+
+        <div id="shortBreakDiv">
+            <h1 id="counterTwo">05:00</h1>
+            <button class="clockButton start" onclick="startTimer(this)">Start</button>
+            <button class="clockButton stop" onclick="stopTimer(this)">Stop</button>
+            <button class="clockButton reset" onclick="resetTimer(this)">Reset</button>
+        </div>
+
+        <div id="longBreakDiv">
+            <h1 id="counterThree">10:00</h1>
+            <button class="clockButton start" onclick="startTimer(this)">Start</button>
+            <button class="clockButton stop" onclick="stopTimer(this)">Stop</button>
+            <button class="clockButton reset" onclick="resetTimer(this)">Reset</button>
+        </div>
+
+
+    <script src="index.js"></script>
+    </body>
+</html>
